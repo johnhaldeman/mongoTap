@@ -2,7 +2,7 @@
 
 The mongoTap is a Type 1 Guardium STAP for mongoDB. MongoDB is a NoSQL document database that stores and retrieves JSON objects. It has gained some popularity in recent years because of its speed, simplicity, and scalability. For a list of real life mongoDB use cases, see [this link](http://www.mongodb.org/about/production-deployments/). Guardium is a Database Activity Monitoring System now owned and developed by IBM. Among other things, Guardium monitors, audits, and reports on database transactions.
 
-The mongoTap is programmed in Ruby and follows the Guardium universal feed protocol explained in [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1210universalfeed/index.html) and [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1211universalfeed2/index.html). The mongoTap provides a feed of mongoDB transactions to Guardium for collection and reporting. The mongoTap is still under development, but has been shown to forward all simple mongoDB transactions to a Guardium collector for logging. It has been tested for insert, remove, update, and find transactions, as well as other calls to system and database functions (for example "show collections", db.authenticate, etc). The mongoTap also keeps track of user switching in mongoDB environments where authentication is enabled.
+The mongoTap is programmed in Ruby and follows the Guardium universal feed protocol explained in [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1210universalfeed/index.html) and [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1211universalfeed2/index.html). The mongoTap provides a feed of mongoDB transactions to a Guardium appliance which collects and reports on the data. The mongoTap is still under development, but has been shown to forward all simple mongoDB transactions to a Guardium collector for logging. It has been tested for insert, remove, update, and find transactions, as well as other calls to system and database functions (for example "show collections", db.authenticate, etc). The mongoTap also keeps track of user switching in mongoDB environments where authentication is enabled.
 
 ##Architecture and Prerequisites
 The mongoTap's architecture consists of two parts: A mongoDB transaction forwarder (the mongoTap client) and a traffic receiver/parser (the mongoTap server). The client forwards mongoDB transactions to the server, which then parses and translates the data into a format that a Guardium collector understands. The server forwards the reformatted traffic to a Guardium collector.
@@ -37,7 +37,7 @@ ruby MongoTapClient.rb <mongoTap_server_ip> <mongo_bin_path> <network_int>
 ```
 Put all of the mongoTap software on a server and execute:
 ```
-usage: ruby MongoTapServer.rb <listen_ip> <collector_ip>\n
+usage: ruby MongoTapServer.rb <listen_ip> <collector_ip>
 	where:
 		<listen_ip> is the IP address of the network interface you want to listen on
 		<collector_ip> is the IP address of the Guardium Collector to report to
