@@ -26,6 +26,14 @@ The mongoTap was tested with Guardium V9, but it seems to work in Guardium V8.2 
 
 ##Installing and Starting mongoTap
 
+Put all of the mongoTap software on a server and execute:
+```
+usage: ruby MongoTapServer.rb <listen_ip> <collector_ip>
+	where:
+		<listen_ip> is the IP address of the network interface you want to listen on
+		<collector_ip> is the IP address of the Guardium Collector to report to
+	example: ruby MongoTapServer.rb 10.10.9.28 10.10.9.248
+```
 Put the mongoTap client software (MongoTapClient.rb) on the mongoDB server and execute:
 ```
 ruby MongoTapClient.rb <mongoTap_server_ip> <mongo_bin_path> <network_int>
@@ -34,14 +42,6 @@ ruby MongoTapClient.rb <mongoTap_server_ip> <mongo_bin_path> <network_int>
 		<mongo_bin_path> is the path to the bin folder for mongoDB
 		<network_int> is the network interface name
 	example: ruby MongoTapClient.rb 10.10.9.150 /opt/mongodb-linux-x86_64-2.2.1/bin eth0
-```
-Put all of the mongoTap software on a server and execute:
-```
-usage: ruby MongoTapServer.rb <listen_ip> <collector_ip>
-	where:
-		<listen_ip> is the IP address of the network interface you want to listen on
-		<collector_ip> is the IP address of the Guardium Collector to report to
-	example: ruby MongoTapServer.rb 10.10.9.28 10.10.9.248
 ```
 
 
