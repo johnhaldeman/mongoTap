@@ -1,0 +1,547 @@
+# Logfile created on 2013-03-06 21:50:39 -0600 by logger.rb/31641
+I, [2013-03-06T21:50:39.085030 #1468]  INFO -- : Starting mongoTap Guardium STAP Client
+I, [2013-03-06T21:50:39.085530 #1468]  INFO -- : Sending handshake
+I, [2013-03-06T21:50:49.533857 #1468]  INFO -- : Starting mongoTap Server
+D, [2013-03-06T21:51:09.093340 #1468] DEBUG -- : sending ping
+I, [2013-03-06T21:51:17.917961 #1468]  INFO -- : Starting mongoTap Server
+D, [2013-03-06T21:51:17.961466 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:51:17.961466 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:51:17.961466 #1468] DEBUG -- : parsing new message line sniffing... 27017 
+D, [2013-03-06T21:51:17.961967 #1468] DEBUG -- : Unexpected mongosniff line: sniffing... 27017 
+D, [2013-03-06T21:51:39.107652 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:51:40.943885 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:51:40.944385 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:51:40.944385 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:f	15
+D, [2013-03-06T21:51:40.946385 #1468] DEBUG -- : Sending Session Start Message
+D, [2013-03-06T21:51:41.148911 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:51:41.149411 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:51:41.149411 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:51:41.149411 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:51:41.151411 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:0	0 - 15
+D, [2013-03-06T21:51:41.151411 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:51:41.151411 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:51:41.151411 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:51:41.151411 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:51:43.312186 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:51:43.312186 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:51:43.312686 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.system.namespaces  56 bytes  id:10	16
+D, [2013-03-06T21:51:43.512711 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:51:43.512711 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:51:43.512711 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:51:43.513211 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:51:43.514711 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   383 bytes  id:1	1 - 16
+D, [2013-03-06T21:51:43.514711 #1468] DEBUG -- : parsing continuation line 	reply n:11 cursorId: 0
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:11 cursorId: 0
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : parsing continuation line 	{ name: "test.system.indexes" }
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ name: "test.system.indexes" }
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:11	17
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:51:43.515211 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:51:43.516712 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:2	2 - 17
+D, [2013-03-06T21:51:43.516712 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:51:43.516712 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:51:43.516712 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:51:43.516712 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:52:09.122463 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:52:39.136774 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:53:09.151586 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:53:39.166897 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:54:02.926414 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:02.926414 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:02.926914 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  44 bytes  id:12	18
+D, [2013-03-06T21:54:03.126940 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:03.126940 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:03.126940 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:54:03.126940 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:03.129940 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   36 bytes  id:3	3 - 18
+D, [2013-03-06T21:54:03.130440 #1468] DEBUG -- : parsing continuation line 	reply n:0 cursorId: 0
+D, [2013-03-06T21:54:03.130440 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:0 cursorId: 0
+D, [2013-03-06T21:54:03.130440 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:13	19
+D, [2013-03-06T21:54:03.130440 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:03.130440 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:03.137441 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:4	4 - 19
+D, [2013-03-06T21:54:03.137441 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:03.137441 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:03.137441 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:03.137441 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:06.051811 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:06.051811 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:06.051811 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:14	20
+D, [2013-03-06T21:54:06.242835 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:06.242835 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:06.242835 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:54:06.243336 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:06.247336 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:5	5 - 20
+D, [2013-03-06T21:54:06.247336 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:06.247336 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:06.247336 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:06.247836 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:06.247836 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:15	21
+D, [2013-03-06T21:54:06.247836 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:06.247836 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:06.252337 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:6	6 - 21
+D, [2013-03-06T21:54:06.252837 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:06.252837 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:06.252837 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:06.252837 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:09.180709 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:54:23.842570 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:23.843070 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:23.843070 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  57 bytes  id:16	22
+D, [2013-03-06T21:54:24.043596 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:24.043596 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:24.043596 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { sds: "sasdads" }
+D, [2013-03-06T21:54:24.044096 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:24.051097 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:17	23
+D, [2013-03-06T21:54:24.051097 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:24.051097 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:7	7 - 23
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:18	24
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:24.053097 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:24.054597 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:8	8 - 24
+D, [2013-03-06T21:54:24.054597 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:24.054597 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:24.054597 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:24.054597 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:26.246376 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:26.246376 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:26.246376 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:19	25
+D, [2013-03-06T21:54:26.446901 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:26.446901 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:26.446901 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:54:26.447401 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:26.448901 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:9	9 - 25
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:1a	26
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:26.449401 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:26.450902 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:a	10 - 26
+D, [2013-03-06T21:54:26.450902 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:26.450902 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:26.450902 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:26.451402 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:39.195520 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:54:52.405697 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:52.405697 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:52.406197 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  57 bytes  id:1b	27
+D, [2013-03-06T21:54:52.597222 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:52.597722 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:52.597722 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { sds: "sasdads" }
+D, [2013-03-06T21:54:52.597722 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:52.599722 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:1c	28
+D, [2013-03-06T21:54:52.599722 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:52.599722 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:b	11 - 28
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:1d	29
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:52.601722 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:52.603223 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:c	12 - 29
+D, [2013-03-06T21:54:52.603223 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:52.603223 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:52.603723 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:52.603723 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:54.143918 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:54.143918 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:54.143918 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:1e	30
+D, [2013-03-06T21:54:54.345944 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:54:54.345944 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:54:54.345944 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:54:54.346444 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:d	13 - 30
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:1f	31
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:54:54.348444 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:54:54.349944 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:e	14 - 31
+D, [2013-03-06T21:54:54.349944 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:54.349944 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:54:54.349944 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:54:54.350444 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:05.662881 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:05.663381 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:05.663381 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  57 bytes  id:20	32
+D, [2013-03-06T21:55:05.863406 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:05.863406 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:05.863406 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { sds: "sasdads" }
+D, [2013-03-06T21:55:05.863406 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:05.865907 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:21	33
+D, [2013-03-06T21:55:05.865907 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:05.865907 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:f	15 - 33
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:22	34
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:05.867407 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:05.869407 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:10	16 - 34
+D, [2013-03-06T21:55:05.869407 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:05.869407 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:05.869407 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:05.869407 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:07.000051 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:07.000051 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:07.000051 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:23	35
+D, [2013-03-06T21:55:07.200576 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:07.200576 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:07.201076 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:55:07.201076 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:07.203076 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:11	17 - 35
+D, [2013-03-06T21:55:07.203076 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:07.203076 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:07.203076 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:07.203076 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:07.203577 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:24	36
+D, [2013-03-06T21:55:07.203577 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:07.203577 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:07.205077 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:12	18 - 36
+D, [2013-03-06T21:55:07.205077 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:07.205077 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:07.205077 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:07.205077 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:09.209831 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:55:12.246717 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:12.246717 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:12.246717 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:25	37
+D, [2013-03-06T21:55:12.447242 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:12.447242 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:12.447242 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:55:12.447242 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:13	19 - 37
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:12.449743 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:26	38
+D, [2013-03-06T21:55:12.450243 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:12.450243 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:12.451743 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:14	20 - 38
+D, [2013-03-06T21:55:12.451743 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:12.451743 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:12.451743 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:12.451743 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:20.402253 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:20.402253 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:20.402253 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  51 bytes  id:27	39
+D, [2013-03-06T21:55:20.602778 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:20.602778 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:20.603278 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { a: 1.0 }
+D, [2013-03-06T21:55:20.603278 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:20.605278 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:28	40
+D, [2013-03-06T21:55:20.605278 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:20.605278 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:15	21 - 40
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:29	41
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:20.607279 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:20.608779 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:16	22 - 41
+D, [2013-03-06T21:55:20.608779 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:20.608779 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:20.608779 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:20.609279 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:21.609406 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:21.609406 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:21.609406 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:2a	42
+D, [2013-03-06T21:55:21.799930 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:21.799930 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:21.799930 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:55:21.799930 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:17	23 - 42
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:2b	43
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:21.802430 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:21.803931 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:18	24 - 43
+D, [2013-03-06T21:55:21.803931 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:21.803931 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:21.804431 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:21.804431 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:26.769061 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:26.769061 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:26.769061 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:2c	44
+D, [2013-03-06T21:55:26.969586 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:26.969586 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:26.970087 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:26.970087 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:26.972087 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:19	25 - 44
+D, [2013-03-06T21:55:26.972087 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:26.972087 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:26.972087 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:26.972087 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:39.225143 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:55:42.570568 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:42.570568 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:42.571068 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.score  40 bytes  id:2d	45
+D, [2013-03-06T21:55:42.771093 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:42.771593 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:42.771593 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: {}
+D, [2013-03-06T21:55:42.771593 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:42.773593 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:2e	46
+D, [2013-03-06T21:55:42.774093 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:42.774093 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:1a	26 - 46
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:2f	47
+D, [2013-03-06T21:55:42.775594 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:42.776094 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:42.778094 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:1b	27 - 47
+D, [2013-03-06T21:55:42.778094 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:42.778094 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:42.778094 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:42.778094 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:44.629829 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:44.629829 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:44.629829 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:30	48
+D, [2013-03-06T21:55:44.830355 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:44.830355 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:44.830855 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:55:44.830855 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:44.832355 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   286 bytes  id:1c	28 - 48
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : parsing continuation line 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:7 cursorId: 0
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557e84b3205395942acbc'), a: 1.0 }
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:31	49
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:44.832855 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:44.834355 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:1d	29 - 49
+D, [2013-03-06T21:55:44.834355 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:44.834355 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:44.834355 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:44.834855 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:52.016767 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:52.017267 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:52.017267 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  52 bytes  id:32	50
+D, [2013-03-06T21:55:52.207291 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:52.207291 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:52.207291 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { a: 1.0 }
+D, [2013-03-06T21:55:52.207291 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:52.212792 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:33	51
+D, [2013-03-06T21:55:52.213292 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:52.213292 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:1e	30 - 51
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : parsing continuation line 	{ n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:55:52.214792 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:34	52
+D, [2013-03-06T21:55:52.215292 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:52.215292 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:52.216792 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:1f	31 - 52
+D, [2013-03-06T21:55:52.216792 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:52.216792 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:52.216792 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:52.216792 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:53.727484 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:53.727984 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:53.727984 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:35	53
+D, [2013-03-06T21:55:53.918008 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:55:53.918509 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:55:53.918509 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:55:53.918509 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   253 bytes  id:20	32 - 53
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : parsing continuation line 	reply n:6 cursorId: 0
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:6 cursorId: 0
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:36	54
+D, [2013-03-06T21:55:53.921009 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:55:53.921509 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:55:53.923509 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:21	33 - 54
+D, [2013-03-06T21:55:53.923509 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:53.923509 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:55:53.923509 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:55:53.924009 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:00.746376 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:00.746376 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:00.746876 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  58 bytes  id:37	55
+D, [2013-03-06T21:56:00.946901 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:00.946901 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:00.946901 #1468] DEBUG -- : parsing continuation line 	delete flags: 0 q: { sds: "sasdads" }
+D, [2013-03-06T21:56:00.946901 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:00.948901 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:38	56
+D, [2013-03-06T21:56:00.949401 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:00.949401 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:22	34 - 56
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : parsing continuation line 	{ n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:39	57
+D, [2013-03-06T21:56:00.950902 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:00.951402 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:00.952402 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:23	35 - 57
+D, [2013-03-06T21:56:00.952902 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:00.952902 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:00.952902 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:00.952902 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:02.374082 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:02.374082 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:02.374082 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:3a	58
+D, [2013-03-06T21:56:02.575108 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:02.575108 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:02.575108 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:56:02.575608 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:02.577608 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   214 bytes  id:24	36 - 58
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : parsing continuation line 	reply n:5 cursorId: 0
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:5 cursorId: 0
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:3b	59
+D, [2013-03-06T21:56:02.578608 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:02.579108 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:02.581109 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:25	37 - 59
+D, [2013-03-06T21:56:02.581609 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:02.581609 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:02.581609 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:02.581609 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:09.239454 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:56:38.479167 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:38.479167 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:38.479167 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  72 bytes  id:3c	60
+D, [2013-03-06T21:56:38.679693 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:38.680193 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:38.680193 #1468] DEBUG -- : parsing continuation line 	update  flags:0 q:{ a: 7.0 } o:{ b: "goodbye" }
+D, [2013-03-06T21:56:38.680193 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:38.682193 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:3d	61
+D, [2013-03-06T21:56:38.682193 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:38.682193 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:38.683693 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   112 bytes  id:26	38 - 61
+D, [2013-03-06T21:56:38.683693 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:38.683693 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:38.683693 #1468] DEBUG -- : parsing continuation line 	{ updatedExisting: true, n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:56:38.684193 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ updatedExisting: true, n: 1, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:56:38.684193 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:3e	62
+D, [2013-03-06T21:56:38.684193 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:38.684193 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:38.685693 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:27	39 - 62
+D, [2013-03-06T21:56:38.685693 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:38.685693 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:38.685693 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:38.685693 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:39.253765 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:56:39.945353 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:39.945853 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:39.945853 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:3f	63
+D, [2013-03-06T21:56:40.145879 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:56:40.145879 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:56:40.145879 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:56:40.145879 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:40.147879 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   205 bytes  id:28	40 - 63
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : parsing continuation line 	reply n:5 cursorId: 0
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:5 cursorId: 0
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:40	64
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:56:40.148379 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:56:40.149879 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:29	41 - 64
+D, [2013-03-06T21:56:40.149879 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:40.149879 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:56:40.149879 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:56:40.149879 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:09.268077 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:57:14.731771 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:14.731771 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:14.731771 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:41	65
+D, [2013-03-06T21:57:14.942297 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:14.942297 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:14.942297 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:57:14.942797 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:14.944298 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:2a	42 - 65
+D, [2013-03-06T21:57:14.944798 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:14.944798 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:14.944798 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:14.944798 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:28.322996 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:28.322996 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:28.323496 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  84 bytes  id:42	66
+D, [2013-03-06T21:57:28.523522 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:28.524022 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:28.524022 #1468] DEBUG -- : parsing continuation line 	insert: { _id: ObjectId('51381026b01f8f9077edda6b'), a: { b: 5.0, c: 6.0 } }
+D, [2013-03-06T21:57:28.524022 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:28.526022 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.$cmd  76 bytes  id:43	67
+D, [2013-03-06T21:57:28.526522 #1468] DEBUG -- : parsing continuation line 	query: { getlasterror: 1.0, w: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:57:28.526522 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:28.528022 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   94 bytes  id:2b	43 - 67
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : parsing continuation line 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ n: 0, connectionId: 1, wtime: 0, err: null, ok: 1.0 }
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:44	68
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:57:28.528523 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:28.530023 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:2c	44 - 68
+D, [2013-03-06T21:57:28.530023 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:28.530023 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:28.530023 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:28.530023 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:30.721301 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:30.721301 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:30.721301 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 test.scores  45 bytes  id:45	69
+D, [2013-03-06T21:57:30.921826 #1468] DEBUG -- : parsing new message line 
+D, [2013-03-06T21:57:30.921826 #1468] DEBUG -- : Unexpected mongosniff line: 
+D, [2013-03-06T21:57:30.921826 #1468] DEBUG -- : parsing continuation line 	query: {}  ntoreturn: 0 ntoskip: 0
+D, [2013-03-06T21:57:30.922326 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:30.923827 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   257 bytes  id:2d	45 - 69
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : parsing continuation line 	reply n:6 cursorId: 0
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:6 cursorId: 0
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : parsing continuation line 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ _id: ObjectId('509557ec4b3205395942acbd'), a: 2.0 }
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : parsing new message line 127.0.0.1:60817  -->> 127.0.0.1:27017 admin.$cmd  88 bytes  id:46	70
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : parsing continuation line 	query: { replSetGetStatus: 1.0, forShell: 1.0 }  ntoreturn: -1 ntoskip: 0
+D, [2013-03-06T21:57:30.924327 #1468] DEBUG -- : Sending Client Request Message
+D, [2013-03-06T21:57:30.926327 #1468] DEBUG -- : parsing new message line 127.0.0.1:27017  <<--  127.0.0.1:60817   92 bytes  id:2e	46 - 70
+D, [2013-03-06T21:57:30.926327 #1468] DEBUG -- : parsing continuation line 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:30.926327 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	reply n:1 cursorId: 0
+D, [2013-03-06T21:57:30.926327 #1468] DEBUG -- : parsing continuation line 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:30.926827 #1468] DEBUG -- : Unexpected mongosniff line (countinuation): 	{ errmsg: "not running with --replSet", ok: 0.0 }
+D, [2013-03-06T21:57:39.282888 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:58:09.297700 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:58:39.312011 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:59:09.326822 #1468] DEBUG -- : sending ping
+D, [2013-03-06T21:59:39.341134 #1468] DEBUG -- : sending ping
+I, [2013-03-07T18:51:55.533631 #7052]  INFO -- : Starting mongoTap Guardium STAP Client
+I, [2013-03-07T18:51:55.533631 #7052]  INFO -- : Sending handshake
+D, [2013-03-07T18:52:25.536941 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:52:55.551752 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:53:25.567063 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:53:55.581375 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:54:25.596186 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:54:55.610497 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:55:25.624809 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:55:55.639620 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:56:25.654432 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:56:55.668243 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:57:25.683554 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:57:55.697366 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:58:25.712677 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:58:55.726988 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:59:25.741300 #7052] DEBUG -- : sending ping
+D, [2013-03-07T18:59:55.756611 #7052] DEBUG -- : sending ping
