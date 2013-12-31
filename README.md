@@ -1,5 +1,11 @@
 #mongoTap
 
+##Retired:
+
+Shortly after this project was created, IBM started fully supporting MongoDB as part of the base Guardium product. As such, it is recommended that you use standard STAPs with MongoDB inspection engines rather than this custom STAP. The code is still available however as an example of how to build a custom STAP.
+
+##Introduction
+
 The mongoTap is a Type 1 Guardium STAP for mongoDB. MongoDB is a NoSQL document database that stores and retrieves JSON objects. It has gained some popularity in recent years because of its speed, simplicity, and scalability. For a list of real life mongoDB use cases, see [this link](http://www.mongodb.org/about/production-deployments/). Guardium is a Database Activity Monitoring System now owned and developed by IBM. Among other things, Guardium monitors, audits, and reports on database transactions.
 
 The mongoTap is programmed in Ruby and follows the Guardium universal feed protocol explained in [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1210universalfeed/index.html) and [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1211universalfeed2/index.html). The mongoTap provides a feed of mongoDB transactions to a Guardium appliance which collects and reports on the data. The mongoTap is still under development, but has been shown to forward all simple mongoDB transactions to a Guardium collector for logging. It has been tested for insert, remove, update, and find transactions, as well as other calls to system and database functions (for example "show collections", db.authenticate, etc). The mongoTap also keeps track of user switching in mongoDB environments where authentication is enabled.
