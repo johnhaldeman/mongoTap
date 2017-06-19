@@ -1,28 +1,28 @@
-#mongoTap
+# mongoTap
 
-##Retired:
+## Retired:
 
 Shortly after this project was created, IBM started fully supporting MongoDB as part of the base Guardium product. As such, it is recommended that you use standard STAPs with MongoDB inspection engines rather than this custom STAP. The code is still available however as an example of how to build a custom STAP.
 
-##Introduction
+## Introduction
 
 The mongoTap is a Type 1 Guardium STAP for mongoDB. MongoDB is a NoSQL document database that stores and retrieves JSON objects. It has gained some popularity in recent years because of its speed, simplicity, and scalability. For a list of real life mongoDB use cases, see [this link](http://www.mongodb.org/about/production-deployments/). Guardium is a Database Activity Monitoring System now owned and developed by IBM. Among other things, Guardium monitors, audits, and reports on database transactions.
 
 The mongoTap is programmed in Ruby and follows the Guardium universal feed protocol explained in [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1210universalfeed/index.html) and [this article](http://www.ibm.com/developerworks/data/library/techarticle/dm-1211universalfeed2/index.html). The mongoTap provides a feed of mongoDB transactions to a Guardium appliance which collects and reports on the data. The mongoTap is still under development, but has been shown to forward all simple mongoDB transactions to a Guardium collector for logging. It has been tested for insert, remove, update, and find transactions, as well as other calls to system and database functions (for example "show collections", db.authenticate, etc). The mongoTap also keeps track of user switching in mongoDB environments where authentication is enabled.
 
-##Architecture and Prerequisites
+## Architecture and Prerequisites
 The mongoTap's architecture consists of two parts: A mongoDB transaction forwarder (the mongoTap client) and a traffic receiver/parser (the mongoTap server). The client forwards mongoDB transactions to the server, which then parses and translates the data into a format that a Guardium collector understands. The server forwards the reformatted traffic to a Guardium collector.
 
 The mongoTap client uses the [mongosniff utility](http://docs.mongodb.org/manual/reference/mongosniff/) to collect the transactions occurring in mongoDB. The mongoTap server uses the Ruby [EventMachine](http://rubyeventmachine.com/) library (for connection/data handling), [protocol buffers](http://code.google.com/p/ruby-protobuf/) (to communicate with the collector), and [bindata](http://bindata.rubyforge.org/) (to build Guardium's wrapper messages).
 
 Because of these dependencies, the following prerequisites are required to run the mongoTap:
 
-###mongoTap Client Prerequisites:
+### mongoTap Client Prerequisites:
 - Ruby 1.9 and above
 - mongosniff and access to mongosniff
 - Because mongosniff is a unix-only utility (it relies on PCAP), the mongoTap will only work on linux and unix platforms
 
-###mongoTap Server Prerequisites:
+### mongoTap Server Prerequisites:
 - Ruby 1.9 and above
 - The EventMachine gem installed
 - The protobuf gem installed
@@ -30,7 +30,7 @@ Because of these dependencies, the following prerequisites are required to run t
 
 The mongoTap was tested with Guardium V9, but it seems to work in Guardium V8.2 as well. Other versions of Guardium have not been tried.
 
-##Installing and Starting mongoTap
+## Installing and Starting mongoTap
 
 Put all of the mongoTap software on a server and execute:
 ```
@@ -51,7 +51,7 @@ ruby MongoTapClient.rb <mongoTap_server_ip> <mongo_bin_path> <network_int>
 ```
 
 
-##Future Development
+## Future Development
 The following are some obvious areas for improvement:
 - Further testing is likely to be required to support all mongoDB transaction types
 - Communication between the mongoTap client and server is fairly primitive in that the monoTap client will not reconnect if a connection is lost and will not buffer traffic if the mongoTap server fails. 
@@ -60,10 +60,10 @@ The following are some obvious areas for improvement:
 - No testing has been done to ensure that the mongoTap works in sharded or other distributed environments. Theoretically, if mongosniff works, so should the mongoTap
 - Returned data and exception handling could be implemented so that additional fields and areas of Guardium are populated
 
-##License
+## License
 The mongTap is released under the MIT license. The components that mongoTap uses (eg: EventMachine, IBM InfoSphere Guardium) have their own licenses.
 
-##About the Author
+## About the Author
 The mongoTap was developed by John Haldeman as a side project. John currently works as the Security Practice Lead at Information Insights LLC. If you would like to contribute to the mongoTap, or have any questions about it, you can contact him at john.haldeman@infoinsightsllc.com
 
 
